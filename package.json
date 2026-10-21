@@ -1,0 +1,13 @@
+{
+  "name": "night-shift",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ночная смена — Эпизод 1: Последний клиент. WebXR-хоррор на Three.js r160.",
+  "type": "module",
+  "scripts": {
+    "vendor": "node scripts/vendor-three.mjs",
+    "vendor:addons": "node scripts/vendor-three.mjs --addons",
+    "start": "npx --yes serve . -l 3000",
+    "test": "node --import ./tests/register.mjs tests/level-xr.test.mjs"
+  }
+}
